@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("https://accounts.fullstack.edu.vn/static/media/f8_bg_auth_1366.cb1a38f30212c78aa891.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .display-screen input{
+    padding: 20px;
+    border: darkgoldenrod solid 5px;
+    outline: none;
+    pointer-events: none;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 500;
+
+}
+
+.Number{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+
+.Number button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+.container-equal{
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows: 60px;
+}
+.equal{
+    padding-right: 100px;
+}
+
+.operator{
+    background-color:#ec7d70 ;
+}
+
+button:hover {
+    border: rgb(56, 56, 56) 2px solid;
+    opacity: 0.95;
+}
