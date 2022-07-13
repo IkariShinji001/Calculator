@@ -8,7 +8,6 @@ body{
     background-image: url("https://accounts.fullstack.edu.vn/static/media/f8_bg_auth_1366.cb1a38f30212c78aa891.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 .container{
     max-width: 800px;
